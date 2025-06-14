@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CQM Admin</title>
+</head>
+
+<body>
+    <div style="max-width: 400px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif;">
+        <h1 style="text-align: center;">CQM ERC20 Functions</h1>
+
+        <div style="margin-bottom: 20px; text-align: center;">
+            <p id="totalAmountText" style="font-size: 1.5em; font-weight: bold; margin: 0;">Total Amount</p>
+            <p id="totalAmountValue" style="font-size: 1.5em; font-weight: bold; margin: 0;">0</p>
+        </div>
+        
+        <div style="margin-bottom: 20px;">
+            <label for="mintAmount" style="display: block; margin-bottom: 5px;">Mint Amount:</label>
+            <input type="number" id="mintAmount" style="width: 100%; padding: 10px; margin-bottom: 10px;" placeholder="Enter amount to mint" />
+            <button id="mintButton" style="width: 100%; padding: 10px; margin-bottom: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Mint</button>
+        </div>
+        
+        <div>
+            <label for="burnAmount" style="display: block; margin-bottom: 5px;">Burn Amount:</label>
+            <input type="number" id="burnAmount" style="width: 100%; padding: 10px; margin-bottom: 10px;" placeholder="Enter amount to burn" />
+            <button id="burnButton" style="width: 100%; padding: 10px; margin-bottom: 10px; background-color: #f44336; color: white; border: none; cursor: pointer;">Burn</button>
+        </div>
+    </div>
+    <script type="module" src="./admin.ts"></script>
+</body>
+
+</html>

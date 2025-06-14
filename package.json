@@ -1,0 +1,22 @@
+{
+  "name": "php-cqm-backend",
+  "version": "1.0.0",
+  "description": "PHP backend for CQM token",
+  "repository": "https://github.com/TheBojda/php-cqm-backend.git",
+  "author": "Laszlo Fazekas <thebojda@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:backend": "php -S localhost:8000 -t public",
+    "start:admin": "parcel serve src/admin.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.15.2",
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.6",
+    "ethers": "^6.14.4"
+  }
+}

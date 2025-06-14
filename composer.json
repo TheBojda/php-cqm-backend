@@ -1,0 +1,13 @@
+{
+    "name": "thebojda/php-cqm-backend",
+    "description": "PHP backend for CQM token",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laszlo Fazekas",
+            "email": "thebojda@gmail.com"
+        }
+    ],
+    "require": {}
+}
