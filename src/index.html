@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CQM Manager</title>
+</head>
+
+<body>
+    <div style="max-width: 400px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif;">
+
+        <div style="margin-bottom: 20px; text-align: center;">
+            <p id="totalAmountText" style="font-size: 1.5em; font-weight: bold; margin: 0;">Your Balance</p>
+            <p id="totalAmountValue" style="font-size: 2em; font-weight: bold; margin: 10px 0 0;">0</p>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <label for="paybackAmount" style="display: block; margin-bottom: 5px;">Payback Amount:</label>
+            <input type="number" id="paybackAmount" style="width: 100%; padding: 10px; margin-bottom: 10px;" placeholder="Enter amount to pay back" />
+            <button id="paybackButton" style="width: 100%; padding: 10px; margin-bottom: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Pay back</button>
+        </div>
+
+    </div>
+    <script type="module" src="./index.ts"></script>
+</body>
+
+</html>

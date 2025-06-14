@@ -9,5 +9,8 @@
             "email": "thebojda@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "drlecks/simple-web3-php": "^0.10.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
 }

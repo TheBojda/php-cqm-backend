@@ -1,5 +1,4 @@
 import 'bootstrap';
-import * as bootstrap from 'bootstrap';
 import './style.scss';
 import { JsonRpcProvider, Contract, BrowserProvider } from 'ethers';
 import detectEthereumProvider from '@metamask/detect-provider';

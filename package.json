@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start:backend": "php -S localhost:8000 -t public",
+    "start:frontend": "parcel serve src/index.html",
     "start:admin": "parcel serve src/admin.html"
   },
   "devDependencies": {
